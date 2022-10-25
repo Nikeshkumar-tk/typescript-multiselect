@@ -5,10 +5,10 @@ import {SelectOptons} from './Select'
 
 
 const options = [
-  {label:"Firt",value:1},
-  {label:"Firt",value:1},
-  {label:"Firt",value:1},
-  {label:"Firt",value:1}
+  {label:"First",value:1},
+  {label:"second",value:1},
+  {label:"third",value:1},
+  {label:"fourth",value:1}
 ]
 function App() {
 const [value, setValue] = useState<SelectOptons | undefined>(options[0])
